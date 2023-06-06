@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: teal;
+}
+
+.container {
+    width: 500px;
+    background: palevioletred;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#messageArea {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    resize: none;
+    font-size: 18px;
+}
+
+.dynamicElementContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.totalCharacterCount {
+    color: yellow;
+}
+
+.remainderCharacterCount {
+    color: blue;
+}
